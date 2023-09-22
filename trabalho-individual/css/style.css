@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  height: 500vh;
+}
+
+.nav {
+  background-color: blue;
+}
+
+.logo {
+  padding: 15px;
+  text-align: center;
+  height: 55px;
+}
+
+.logo img {
+  text-align: center;
+  align-items: center;
+  width: 30px;
+}
+
+.sticky {
+  position: sticky;
+  height: 80px;
+  top: 0px;
+}
+
+.container {
+  background-color: aliceblue;
+  margin: auto;
+  width: 80%;
+  height: 100%;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.static {
+  background-color: blue;
+}
+
+.relative {
+  background-color: red;
+  position: relative;
+  top: 46px;
+  left: 58px;
+}
+
+.absolute {
+  display: none;
+  background-color: orange;
+  position: absolute;
+  left: 46px;
+  top: 50px;
+}
+
+.fixed {
+  background-color: green;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.relative .absolute {
+  top: 50px;
+  width: 100px;
+  height: 100px;
+}
