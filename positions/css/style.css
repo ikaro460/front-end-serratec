@@ -1,0 +1,68 @@
+body {
+  background-image: url(../img/papel-de-parede-quadrado-preto-com-uma-luz-azul.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+}
+
+.dropbtn {
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  color: aliceblue;
+  border: none;
+  background-color: orangered;
+}
+
+.dropdown-content {
+  display: none;
+  margin: auto;
+  width: 100px;
+  background-color: orangered;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(170, 45, 0);
+  transition: 0.2s;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(170, 45, 0);
+  transition: 0.5s;
+}
+
+.container {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 150px;
+  float: right;
+}
+
+.img2 {
+  float: left;
+}
