@@ -1,0 +1,39 @@
+body {
+  height: 500vh;
+}
+
+h1 {
+  color: red;
+}
+
+/* SM - SMALL - 576px - 768px */
+
+@media (min-width: 576px) {
+  h1 {
+    color: blue;
+  }
+}
+
+/* MD - MEDIUM - 768px - 1024px */
+
+@media (min-width: 768px) {
+  h1 {
+    color: green;
+  }
+}
+
+/* LG - LARGE - 1024px - 1440px*/
+
+@media (min-width: 1024px) {
+  h1 {
+    color: yellow;
+  }
+}
+
+/* XG - EXTRA LARGE - 1440px - 2560px*/
+
+@media (min-width: 1440px) {
+  h1 {
+    color: purple;
+  }
+}
