@@ -23,7 +23,7 @@
 
 body {
   font-family: var(--font-family);
-  background-color: black;
+  background-color: var(--background-dark);
   height: 100vh;
 }
 
@@ -66,7 +66,7 @@ h2.titulo span {
 /* ESTILO DE CABEÇALHO */
 
 header {
-  padding: 40px 4%;
+  padding: 15px 4%;
 }
 
 header > .interface {
@@ -218,6 +218,10 @@ section.sobre .flex {
   margin: 0 5px;
   cursor: pointer;
   transition: 0.2s;
+}
+
+.sobre .txt-sobre .btn-social a {
+  text-decoration: none;
 }
 
 /*FOOTER*/
